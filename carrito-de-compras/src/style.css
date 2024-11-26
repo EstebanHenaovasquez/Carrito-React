@@ -1,0 +1,70 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cards{
+    background: rgb(94, 85, 85);
+    border-radius: 1ch;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardP{
+    background: whitesmoke;
+    padding: 50px;
+    border-radius: 1ch;
+    border: solid black;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    align-content: center;
+}
+
+.cardP:hover{
+    background: rgb(161, 161, 161);
+    color: black;
+    transition: background-color 0.3s ease;
+    transform: translateY(-5px) ;
+}
+
+.cardP img{
+    width: 100px;
+    border-radius: 1ch;
+    margin-left: 45%;
+}
+
+.botonP{
+    margin-top: 20px;
+    color: white;
+    background: rgb(63, 63, 63);
+    border: none;
+    border-radius: 1ch;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 45%;
+}
+
+.botonP:hover{
+    background: rgb(41, 216, 70);
+}
+
+.cardsca{
+    background: rgb(124, 118, 118);
+    border-radius: 1ch;
+}
+
+.boton{
+    color: white;
+    background: rgb(63, 63, 63);
+    border: none;
+    border-radius: 1ch;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover{
+    background: rgb(240, 45, 45);
+}
